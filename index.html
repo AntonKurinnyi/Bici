@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gite in bicicletta</title>
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA4Go0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEREREREREREREBEREREBEREBAREREBAREBEQEREBEQEQERABEQERAREBARAREBARERAREQERAREREREREBEREREQERERAQERERARAAAQAREREBEREREBEREQEREREQEREQABERERAREREREREQAAARERERERERAREREREREREREAAAAAEAgAACgUAABEIgAARiIAACkUAAAQiAAAAEAAABAoAAAT2AAAEAgAABAIAAA4CAAAAD4AAAAEAAAAAAAA" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <wrapper >
+        <div class="container">
+        <h1>Voglio <br> partecipare <br> la gita <br> in montagna</h1>
+        <form name="form1" action="page.html" method="GET">
+            <p><input type="text" name="inputText" placeholder="Nome"></p>
+            <input type="text" name="inputText" placeholder="Cognome">
+            <p>
+                <input type="text" name="email" id="email" placeholder="Email" >
+            </p>
+            Eta
+            <p><input type="number"  name="num" min="10"  value="10"></p>
+            Quanti siete?
+            <p>
+            1<input type="radio" name="scelta" value="1"/>
+            2 <input type="radio" name="scelta" value="2"/>
+            3 <input type="radio" name="scelta" value="3"/>
+            </p>
+            Dove dormi?
+                <p> 
+                    <select name="InputSelect">
+                    <option value="1">Albergo</option>
+                    <option value="2">Campeggio</option>
+                    </select>
+                </p>
+                Vuoi mangiare con noi ? 
+            <p>
+            colazione <input type="checkbox" name="scelta" value="1"/>
+            pranzo <input type="checkbox" name="scelta" value="2"/>
+            cena <input type="checkbox" name="scelta" value="3"/>
+            </p>
+
+            
+            
+            <textarea name="inputTextarea" rows="5" cols="20">Qualcosa da aggiungere?
+            </textarea>
+
+            <footer>
+                <p><button type="submit">Avanti</button></p>
+            </footer>
+        </form>   
+        </div>
+    </wrapper>
+</body>
+</html>

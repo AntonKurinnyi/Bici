@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Raleway:ital@1&display=swap');
+
+body{
+    font-family: 'Raleway', cursive, sans-serif;
+    background-image: url(Mountain.jpg) ;
+    background-size: cover;
+}
+
+.container{
+border-radius: 30px;
+background-position: center ;
+background-color: rgb(33, 33, 126, 0.4);
+font-size: 15px;
+color: rgb(255, 0, 106);
+width: 30%;
+margin-left: 30%;
+margin-top: 60px;
+padding-left: 280px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
